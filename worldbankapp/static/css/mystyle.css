@@ -1,0 +1,90 @@
+.navbar{
+    margin-top:0;
+}
+
+hr{
+    border-top: 1px solid dimgray;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.btn-group-lg>.btn, .btn-lg, .btn-danger.focus, .btn-danger:focus, .btn-danger:hover{
+    margin-top: 20px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #00a46f;
+    float: left;
+    border: black;
+}
+.navbar-brand {
+    margin: 10px;
+    line-height: 25px;
+    font-size: 32px;
+}
+
+.navbar-nav > li > a{
+    padding: 25px;
+}
+
+.navbar-nav{
+    margin-right: 20px;
+}
+
+ul.bts-nav li > ul{
+    margin-bottom:10px;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover{
+    color: #ffffff !important;
+    background-color: dimgray;
+}
+
+.navbar-inverse{
+    border:none!important;
+    border-radius: 0!important;
+}
+
+ul.bts-nav  .dropdown-menu{
+    padding:10px;
+    background: #dedede;
+    nav-left: auto;
+}
+
+ul.bts-nav li:hover{
+    background: dimgray;
+}
+
+ul.bts-nav li > ul > li > ul.dropdown-menu {
+    left: 160px;
+    top: -3px;
+}
+
+ul.bts-nav .dropdown-menu>li>a{
+    padding:10px 20px;
+}
+
+ul.bts-nav .dropdown-caret{
+    transform: rotate(-90deg);
+}
+
+@media only screen and (max-width: 768px){
+    ul.bts-nav ul.dropdown-menu {
+        padding-top: 2px;
+        width:100%;
+        position:relative;
+    }
+
+    .nav{
+        margin: auto;
+    }
+
+    ul.bts-nav li > ul > li > ul.dropdown-menu{
+        padding-top: 10px;
+        left:0;
+        position:relative;
+    }
+
+    ul.bts-nav .dropdown-caret {
+        transform: rotate(0deg);
+    }
+}
