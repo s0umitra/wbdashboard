@@ -1,8 +1,15 @@
 # World Bank Data Dashboard
-Practice Dashboard - Visualizing Top 10 World Economies Land Use using World Bank Data
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+This is a Practice Exercise.
+Demonstrates Data Wrangling and Visualisation using flask.
+Dataset is collected using World Bank Data API,
+further it is cleaned and transformed.
+Plotly is used for visualizing graphs.
 
 ## Hosting
-View dashboard @ [wbd-dashboard](https://wbd-dashboard.herokuapp.com/)
+View dashboard @ [wbdashboard](https://wbdashboard.herokuapp.com/)
 
 ## License
 
