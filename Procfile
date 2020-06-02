@@ -1,0 +1,1 @@
+wen gunicorn dashboard:app
