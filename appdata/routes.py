@@ -4,9 +4,9 @@ from flask import render_template, request
 from appdata import app
 from .scripts.data import return_figures
 
-
 @app.route('/', methods=['POST', 'GET'])
 @app.route('/index', methods=['POST', 'GET'])
+@app.route('/WorldBankDashboard', methods=['POST', 'GET'])
 def index():
 
     country_codes = [['Canada', 'CAN'], ['United States', 'USA'], ['Brazil', 'BRA'], ['France', 'FRA'], ['India', 'IND'],
